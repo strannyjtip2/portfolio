@@ -1,0 +1,16 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#0b0c0f;color:#e9eaee;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:inherit;text-decoration:none}section,header,footer{max-width:1100px;margin:0 auto;padding:0 20px}
+.nav{display:flex;justify-content:space-between;align-items:center;height:64px}.nav nav a{margin-left:18px;color:#9aa0ab}.logo{font-weight:700}
+.hero{padding-top:56px;padding-bottom:64px}h1{font-size:clamp(32px,7vw,60px);line-height:1.1;margin:.3em 0}h1 span{background:linear-gradient(90deg,#7c9cff,#c38bff);-webkit-background-clip:text;color:transparent}
+.lead{color:#a7acb6;max-width:620px;font-size:18px}.tag{color:#7c9cff;font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin:0}
+h2{font-size:28px;margin:56px 0 20px}.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{padding:12px 20px;border-radius:12px;border:1px solid #2a2d35;font-weight:600;display:inline-block}.btn.pri{background:linear-gradient(90deg,#5b7cff,#9b5bff);border:0;color:#fff}
+.grid3{display:grid;gap:14px;grid-template-columns:1fr}@media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr)}}
+.box,.case{background:#13151a;border:1px solid #22252d;border-radius:18px;padding:20px}.box p{color:#9aa0ab;margin:.4em 0 0}
+.case{padding:24px;margin-bottom:16px}.case h3{font-size:30px;margin:.2em 0}.case p{color:#b4b8c1}.case-head{display:grid;gap:16px}@media(min-width:760px){.case-head{grid-template-columns:1fr auto;align-items:start}}
+.case-cta{display:flex;gap:10px;flex-wrap:wrap}.feat{display:grid;gap:8px;padding:0;list-style:none;grid-template-columns:1fr}@media(min-width:760px){.feat{grid-template-columns:1fr 1fr}}
+.feat li:before{content:"✓ ";color:#7c9cff}.note{background:#1b1e26;border-radius:10px;padding:10px 14px;font-size:14px}
+.gallery{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}.gallery img{height:340px;border-radius:12px;border:1px solid #22252d;scroll-snap-align:start;cursor:zoom-in}
+.soon .box{opacity:.7;position:relative}.badge{position:absolute;top:14px;right:14px;font-size:12px;background:#22252d;padding:2px 10px;border-radius:99px;color:#c38bff}
+.contact{text-align:center;padding-bottom:40px}.contact .btns{justify-content:center}footer{color:#5c616b;padding:30px 20px;text-align:center}
+#lb{position:fixed;inset:0;background:#000d;display:flex;align-items:center;justify-content:center;z-index:9}#lb[hidden]{display:none}#lb img{max-width:95vw;max-height:92vh;border-radius:10px}

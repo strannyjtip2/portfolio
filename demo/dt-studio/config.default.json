@@ -1,0 +1,64 @@
+{
+  "shop": {
+    "name": "DT Studio",
+    "tagline": "Детейлинг и уход за авто. Выберите услугу и удобное время.",
+    "phone": "+971 50 000 0000",
+    "address": "Дубай, Al Quoz",
+    "currency": "AED"
+  },
+  "timezone": "Asia/Dubai",
+  "slotStepMin": 60,
+  "bays": 1,
+  "horizonDays": 21,
+  "minLeadHours": 2,
+  "closedDates": [],
+  "hours": {
+    "0": { "open": "12:00", "close": "18:00" },
+    "1": { "open": "09:00", "close": "19:00" },
+    "2": { "open": "09:00", "close": "19:00" },
+    "3": { "open": "09:00", "close": "19:00" },
+    "4": { "open": "09:00", "close": "19:00" },
+    "5": { "open": "09:00", "close": "19:00" },
+    "6": { "open": "09:00", "close": "19:00" }
+  },
+  "services": [
+    {
+      "id": "wash",
+      "name": "Premium мойка",
+      "desc": "Бесконтактная мойка, пена, сушка, чернение резины.",
+      "price": 120,
+      "durationMin": 60,
+      "mode": "hourly"
+    },
+    {
+      "id": "interior",
+      "name": "Химчистка салона",
+      "desc": "Глубокая чистка сидений, потолка, ковров и пластика.",
+      "price": 450,
+      "durationMin": 180,
+      "mode": "hourly"
+    },
+    {
+      "id": "polish",
+      "name": "Полировка кузова",
+      "desc": "Одноэтапная полировка и восстановление блеска ЛКП.",
+      "price": 650,
+      "durationMin": 240,
+      "mode": "hourly"
+    },
+    {
+      "id": "ceramic",
+      "name": "Керамика (керамическое покрытие)",
+      "desc": "Подготовка кузова, полировка и нанесение керамики. Машина остаётся у нас на несколько дней.",
+      "price": 2800,
+      "durationMin": 0,
+      "mode": "multiday",
+      "dropoffDay": 5,
+      "dropoffTime": "10:00",
+      "pickupDay": 0,
+      "pickupTime": "14:00",
+      "pickupNote": "после обеда",
+      "capacityPerDay": 2
+    }
+  ]
+}
